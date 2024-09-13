@@ -61,3 +61,10 @@ This project utilizes the OpenAI API to create an assistant that can perform use
 
 - The assistant's name and message need to be specified in the code.
 - Error messages will be displayed in the console if any issues arise.
+
+## Temperature description
+You can change `temperature` in script.js to influence the tone of the answers
+
+https://platform.openai.com/docs/guides/text-generation/how-should-i-set-the-temperature-parameter 
+
+"You can think of temperature like randomness, with 0 being least random (or most deterministic) and 2 being most random (least deterministic). When using low values for temperature (e.g. 0.2) the model responses will tend to be more consistent but may feel more robotic. Values higher than 1.0, especially values close to 2.0, can lead to erratic model outputs. If your goal is creative outputs, a combination of a slightly higher than normal temperature (e.g. 1.2) combined with a prompt specifically asking the model to be creative may be your best bet, but we encourage experimentation."
